@@ -6,7 +6,7 @@
         "category": "celular",
         "img": "https://cbafederal.net/wp-content/uploads/2021/10/iphone-13-pro-max-blue-select.png",
         "stock": 22,
-        "description": "Descripcion de Iphone 13Pro"
+        "detail": "Descripcion de Iphone 13Pro"
     },
     {
         "id": 2,

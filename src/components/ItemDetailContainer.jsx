@@ -1,9 +1,11 @@
 
 import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
+
 import { useParams } from "react-router-dom";
 
 import data from "../data/products.json";
+import { ItemDetail } from './ItemDetail.jsx';
 
 export const ItemDetailContainer = () => {
 
@@ -28,8 +30,7 @@ export const ItemDetailContainer = () => {
     return (
 
         <Container className='mt-4'>
-            <h1>{product.name}</h1>
-            <img src={product.img} alt='w' />
+            <ItemDetail {...product}/>
         </Container>
     );
 };

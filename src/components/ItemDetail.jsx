@@ -11,7 +11,7 @@ export const ItemDetail = ({ id, name, img, category, detail, price, stock }) =>
                 </h2>
             </header>
             <picture>
-                <img src={img} alt={name} className="ItemImg" />
+                <img src={img} alt={name} width="280px" className="ItemImg" />
             </picture>
             <section>
                 <p>

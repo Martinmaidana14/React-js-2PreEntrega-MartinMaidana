@@ -9,7 +9,7 @@ export const NavBar = () => {
     return (
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home">eCommerce! 📲</Navbar.Brand>
+                <Navbar.Brand to="/" as={NavLink} >eCommerce! 📲</Navbar.Brand>
                 <Nav className="me-auto">
                     <Nav.Link to="/category/celular" as={NavLink} >Celulares</Nav.Link>
                     <Nav.Link to="/category/tablet" as={NavLink} >Tablets</Nav.Link>
